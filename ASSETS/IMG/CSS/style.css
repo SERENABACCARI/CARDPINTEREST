@@ -1,22 +1,70 @@
-body{
+body {
     text-align: center;
 }
 
 
 
 
-img{
+img {
     border-radius: 20%;
     width: 500px;
-    height: 800px;
+    height: 700px;
     padding: 4rem 0;
-        
-    }
 
-    .tondo{
-       background-color: black; 
-       height:50px;
-       width: 50px;
-       display: inline;
-       margin-right: 10px;
-    }
+}
+
+.tondo {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+}
+
+.save {
+    background-color: rgb(212, 23, 17);
+    height: 100px;
+    width: 130px;
+    margin-right: 10px;
+    display: inline-block;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    position: relative;
+    bottom: 730px;
+    right: -350px;
+
+}
+
+.ellittico {
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    -webkit-border-radius: 33px 38px 40px 40px;
+    -moz-border-radius: 33px 38px 40px 40px;
+    border-radius: 33px 38px 40px 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    left: -100px;
+}
+
+h1{
+    font-size:xx-large;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.freccia {
+font-size:x-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
